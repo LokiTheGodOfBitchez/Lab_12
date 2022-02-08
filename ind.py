@@ -1,9 +1,13 @@
-def rec(n):
+x = input("Write x: ")
+n = input("Write n: ")
+
+
+def rec(x, n):
     if n == 0:
-        print(n)
+        print(1)
         return
-    else:
-        print(n)
+    elif n < 0:
+
         rec(n - 1)
 
 
